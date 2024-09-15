@@ -1,0 +1,30 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+
+:root {
+    /* Default global value */
+    --bulma-size-medium: 1.25rem;
+
+
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        /* CSS Variables */
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* CSS Variables */
+    }
+}
+
+[data-theme=light],
+.theme-light {
+    /* CSS Variables */
+}
+
+[data-theme=dark],
+.theme-dark {
+    /* CSS Variables */
+}
