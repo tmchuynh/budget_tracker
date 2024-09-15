@@ -1,6 +1,6 @@
 LINKING
 <!-- Link to CSS file -->
-<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
 
 <!-- Display an image -->
 <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Logo">
