@@ -30,17 +30,17 @@ def create_app():
             
     app.get_session = get_session
     
-    with app.app_context():
-        from .models import User, Student, School, Program, Parent
-        from .models.associations import  Parents_Has_Students, Students_Has_Programs, Schools_Has_Programs
-        db.create_all()
+    # with app.app_context():
+    #     from .models import User, Student, School, Program, Parent
+    #     from .models.associations import  Parents_Has_Students, Students_Has_Programs, Schools_Has_Programs
+    #     db.create_all()
     
-    # Register blueprints
-    from flask_app.controllers.general_controller import bp as general_bp
-    from flask_app.controllers.users_controller import bp as users_bp
+    # # Register blueprints
+    # from flask_app.controllers.general_controller import bp as general_bp
+    # from flask_app.controllers.users_controller import bp as users_bp
     
-    app.register_blueprint(general_bp)
-    app.register_blueprint(users_bp, url_prefix='/users')
+    # app.register_blueprint(general_bp)
+    # app.register_blueprint(users_bp, url_prefix='/users')
 
     return app
 
