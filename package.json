@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile": "sass --watch sass:css"
+    "compile": "sass --watch sass:css",
+    "readme": "node readme.js"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "feather-icons": "^4.29.2"
   },
   "devDependencies": {
+    "dynamic-readme-generator": "^1.1.5",
     "sass": "^1.78.0"
   }
 }
