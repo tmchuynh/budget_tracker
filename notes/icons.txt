@@ -1,6 +1,0 @@
-tabler icons
-https://tabler.io/icons
-
-feather icons
-https://feathericons.com/
-
