@@ -28,6 +28,13 @@ def login():
     
     return redirect(referer_url)
 
+@bp.route('/user/profile', methods=['GET', 'POST'])
+def profile():
+    referer_url = request.headers.get('Referer')
+    
+    
+    return redirect(referer_url)
+
 @bp.route('/user/profile/update', methods=['GET', 'POST'])
 def profile_update():
     referer_url = request.headers.get('Referer')
