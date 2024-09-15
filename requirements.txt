@@ -230,6 +230,8 @@ requests==2.32.3
     #   budget-tracker
     #   cachecontrol
     #   sphinx
+sass==2.3
+    # via -r requirements.in
 six==1.16.0
     # via
     #   flask-restful
